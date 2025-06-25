@@ -1,0 +1,37 @@
+services:
+  db:
+    image: postgres:15
+    container_name: noru_db
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  backend:
+    container_name: noru_backend
+    build:
+      context: ./NoruBanner.API
+    ports:
+      - "8080:8080"
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Database=norubanner_db;Username=user;Password=password
+      - ASPNETCORE_URLS=http://+:8080
+    depends_on:
+      - db
+
+  frontend:
+    container_name: noru_frontend
+    build:
+      context: ./client
+      args:
+        - VITE_API_BASE_URL=http://localhost:8080/api
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:

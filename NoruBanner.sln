@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoruBanner.API", "NoruBanner.API\NoruBanner.API.csproj", "{A36CCA82-DB19-4387-8F25-636912DCE2A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E432B560-9C01-486C-A0F1-49320ACBFBD5}
+	EndGlobalSection
+EndGlobal

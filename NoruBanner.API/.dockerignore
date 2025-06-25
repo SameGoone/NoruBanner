@@ -1,0 +1,17 @@
+# Exclude build artifacts and user-specific files
+**/bin
+**/obj
+*.user
+*.userosscache
+*.sln.docstates
+
+# Exclude IDE-specific folders
+.vs
+.vscode
+
+# Exclude git history
+.git
+.gitignore
+
+# Exclude local test results
+test-results
