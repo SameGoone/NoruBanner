@@ -1,5 +1,5 @@
 import axios from 'axios';
-import type { BannerEvent } from '../models/BannerEvent';
+import type { BannerEvent } from '../models/bannerEvent';
 
 axios.defaults.baseURL = import.meta.env.VITE_API_BASE_URL;
 
