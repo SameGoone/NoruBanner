@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoruBanner.API", "NoruBanner.API\NoruBanner.API.csproj", "{A36CCA82-DB19-4387-8F25-636912DCE2A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NoruBanner.API.Tests", "NoruBanner.API.Tests\NoruBanner.API.Tests.csproj", "{455CE2FA-61E3-4796-B736-E7F41875FA7A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A36CCA82-DB19-4387-8F25-636912DCE2A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455CE2FA-61E3-4796-B736-E7F41875FA7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455CE2FA-61E3-4796-B736-E7F41875FA7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455CE2FA-61E3-4796-B736-E7F41875FA7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455CE2FA-61E3-4796-B736-E7F41875FA7A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
